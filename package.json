@@ -1,0 +1,23 @@
+{
+  "name": "the-tasteeat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Butanasi/the-tasteEat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Butanasi/the-tasteEat/issues"
+  },
+  "homepage": "https://github.com/Butanasi/the-tasteEat",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
