@@ -24,8 +24,47 @@ a {
   text-decoration: none;
 }
 
+.container {
+  max-width: 1440px;
+  background-color: white;
+  padding: 0 20px;
+}
+
+.header {
+  background-color: #292e36;
+}
+
+.con-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0;
+}
+
 .logo {
   width: 60px;
   height: 40px;
   fill: black;
+}
+
+.button {
+  width: 295px;
+  height: 73px;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #e1b168;
+}
+.button:focus {
+  background-color: #e1b168;
+  color: #292e36;
+}
+
+.line {
+  height: 1px;
+  background: #5c6168;
 }/*# sourceMappingURL=main.css.map */

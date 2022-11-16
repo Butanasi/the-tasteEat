@@ -1,5 +1,32 @@
-.logo{
-   width: 60px;
-   height: 40px;
-   fill:black;
+.header {
+  background-color: #292e36;
+}
+.con-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.logo {
+  width: 60px;
+  height: 40px;
+  fill: black;
+}
+.button {
+  width: 295px;
+  height: 73px;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #e1b168;
+
+  &:focus {
+    background-color: #e1b168;
+    color: #292e36;
+  }
+}
+
+.line {
+  height: 1px;
+  background: #5c6168;
 }
